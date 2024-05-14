@@ -1,0 +1,20 @@
+// assignment soluction 
+
+// Q1 answer
+Select * from users;
+Select * from orders;
+Select * from products;
+Select * from address;
+
+//Q2 answer
+ select sum(total) from orders;
+
+//Q3 answer
+UPDATE orders SET city='indore' where order_id = 01;
+
+//Q4 answer
+update products set product_description =' apple store' where product_id = 'P1';
+
+//Q5 answer
+ Select product_returnable from products;
+ Select product_returnable from products where product_returnable = 'yes';
